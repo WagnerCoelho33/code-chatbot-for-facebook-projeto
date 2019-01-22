@@ -2375,12 +2375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WagnerCoelho33/code-chatbot-for-facebook-sdk.git",
-                "reference": "23a965c1d8bf04c2b27d73f9c63025e9b31e9329"
+                "reference": "d516f0326c315742cd2fb2c679bc6b6585efad47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WagnerCoelho33/code-chatbot-for-facebook-sdk/zipball/23a965c1d8bf04c2b27d73f9c63025e9b31e9329",
-                "reference": "23a965c1d8bf04c2b27d73f9c63025e9b31e9329",
+                "url": "https://api.github.com/repos/WagnerCoelho33/code-chatbot-for-facebook-sdk/zipball/d516f0326c315742cd2fb2c679bc6b6585efad47",
+                "reference": "d516f0326c315742cd2fb2c679bc6b6585efad47",
                 "shasum": ""
             },
             "require": {
@@ -2408,7 +2408,7 @@
                 }
             ],
             "description": "...",
-            "time": "2019-01-21T23:41:56+00:00"
+            "time": "2019-01-21T23:53:54+00:00"
         }
     ],
     "packages-dev": [
