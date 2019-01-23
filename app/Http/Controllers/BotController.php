@@ -33,7 +33,7 @@ class BotController extends Controller
         $callSendApi->make($text->message('Oii, eu sou um bot... '));
         $callSendApi->make($text->message('Você digitou: '. $message));
 
-        $message = new Image($sendrId);
+        $message = new Image($senderId);
         $callSendApi->make($message->message('https://media.tenor.com/images/e16e2812a551f9a788e625a14a969b75/tenor.gif'));
 
         return '';
