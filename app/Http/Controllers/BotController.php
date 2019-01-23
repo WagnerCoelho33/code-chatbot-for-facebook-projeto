@@ -33,6 +33,18 @@ class BotController extends Controller
         $callSendApi->make($text->message('Oii, eu sou um bot... '));
         $callSendApi->make($text->message('Você digitou: '. $message));
 
+        $message = new Image($sendrId);
+        $callSendApi->make($message->message('https://media.tenor.com/images/e16e2812a551f9a788e625a14a969b75/tenor.gif'));
+        
+        $message = new Audio($sendrId);
+        $callSendApi->make($message->message('https://calopsitasbetim.com.br/wp-content/uploads/2016/05/hino-atletico-mp3-calopsitasbetim.mp3?_=1'));
+
+        $message = new Video($sendrId);
+        $callSendApi->make($message->message('https://media.tenor.com/images/e16e2812a551f9a788e625a14a969b75/tenor.mp4'));
+        return '';
+
+        $message = new File($sendrId);
+        $callSendApi->make($message->message('https://media.tenor.com/images/e16e2812a551f9a788e625a14a969b75/tenor.pdf'));
         return '';
     }
 }
