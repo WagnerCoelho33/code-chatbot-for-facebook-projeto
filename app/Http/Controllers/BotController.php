@@ -6,6 +6,11 @@ use CodeBot\WebHook;
 use Illuminate\Http\Request;
 use CodeBot\SendRequest;
 use CodeBot\Message\Text;
+use CodeBot\Message\Image;
+use CodeBot\Message\Audio;
+use CodeBot\Message\File;
+use CodeBot\Message\Video;
+
 use CodeBot\CallSendApi;
 
 class BotController extends Controller
@@ -23,6 +28,7 @@ class BotController extends Controller
 
     public function receiveMessage(Request $request)
     {
+        
         $sender = new SendRequest;
         $senderId = $sender->getSenderId();
         $message = $sender->getMessage();
